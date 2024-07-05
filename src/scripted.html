@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actulurus - Portfolio</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link href="output.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #00A5CF;
+            --secondary-color: #7AE582;
+            --text-color: #4f4f4f;
+            --accent-color: #004E64;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: var(--text-color);
+            font-family: 'Inter', sans-serif;
+        }
+
+        .primary-text {
+            color: var(--primary-color);
+        }
+
+        .secondary-text {
+            color: var(--secondary-color);
+        }
+
+        .accent-text {
+            color: var(--accent-color);
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 0.75rem;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin: 1rem;
+            width: 100%;
+        }
+
+        .card-header {
+            margin-bottom: 1rem;
+        }
+
+        .bg-primary {
+            background-color: var(--primary-color);
+        }
+
+        .bg-secondary {
+            background-color: var(--secondary-color);
+        }
+
+        .bg-accent {
+            background-color: var(--accent-color);
+        }
+
+        .social-btn {
+            background-color: var(--primary-color);
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-btn:hover {
+            background-color: var(--secondary-color);
+        }
+    </style>
+</head>
+
+<body class="bg-fixed bg-cover bg-center">
+    <section id="about" class="py-4 flex justify-center items-center"></section>
+        <div class="container mx-auto px-6 text-center">
+            <div class="card mx-auto w-4xl flex items-center">
+                <div class="text-left flex-1">
+                    <h2 class="text-4xl font-semibold mb-4 primary-text">What do I mean by "scripted"?</h2>
+                    <p class="text-lg font-bold">
+                        I obviously can't program the functionality of the UI, as that would require working with your game's code.
+                        And in the context of a UI commission, I can't do that.
+                    </p>
+                    <p class="text-lg font-bold my-4">
+                        What I can do is stuff like <span class="accent-text">button and frame animations</span>,
+                        <span class="accent-text">opening and closing frames when a button is clicked</span>
+                        and other simple things, mostly related to tweening.
+                    </p>
+                    <p class="text-lg font-bold">
+                        I hope this cleared up any confusion you may have had!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
